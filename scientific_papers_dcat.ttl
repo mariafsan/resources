@@ -1,0 +1,24 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+
+<http://data.knowledgefactory.com/dataset/bregdcat/dataset/fe95934e-6a57-410c-821f-5ec2ab54c413>
+  a dcat:Dataset;
+  dct:creator <http://data.knowledgefactory.com/dataset/bregdcat/publisher/fe95934e-6a57-410c-821f-5ec2ab54c413>;
+  dct:description """Scientific Papers""";
+  dct:identifier "scientific_papers";
+  dct:modified "2023-03-13"^^<http://www.w3.org/2001/XMLSchema#date>;
+  dct:publisher <http://data.knowledgefactory.com/dataset/bregdcat/publisher/fe95934e-6a57-410c-821f-5ec2ab54c413>;
+  dct:title "Scientific Papers";
+  owl:versionInfo "1.0.0";
+  dcat:distribution <http://data.knowledgefactory.com/dataset/bregdcat/distribution/fe95934e-6a57-410c-821f-5ec2ab54c413> .
+
+<http://data.knowledgefactory.com/dataset/bregdcat/publisher/fe95934e-6a57-410c-821f-5ec2ab54c413>
+  a foaf:Agent;
+  skos:inScheme <http://publications.europa.eu/resource/authority/corporate-body>;
+  foaf:name "NTT Data" .
+
